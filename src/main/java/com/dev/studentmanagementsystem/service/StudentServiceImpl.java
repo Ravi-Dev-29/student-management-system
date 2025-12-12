@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service // letting it to be known as a service
+@Service // letting it be known as a service
 public class StudentServiceImpl implements StudentService {
     // service implementation of StudentService
 

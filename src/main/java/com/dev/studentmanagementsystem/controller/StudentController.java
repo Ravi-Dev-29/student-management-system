@@ -18,7 +18,7 @@ public class StudentController {
 
     //get all students
     @RequestMapping("/students")
-    String getAllStudents(Model model){ // create a model  to send data betn view and controller
+    String getAllStudents(Model model){ // create a model  to send data btw view and controller
         model.addAttribute("students",service.getAllStudents());
         return "students"; // returns a students view which should be created inside templates
     }
@@ -53,8 +53,8 @@ public class StudentController {
         Student existingStudent = service.getStudentById(id); // get existing student to update existing data
 
         existingStudent.setId(id);
-        existingStudent.setfName(student.getfName());
-        existingStudent.setlName(student.getlName());
+        existingStudent.setFirstName(student.getFirstName());
+        existingStudent.setLastName(student.getLastName());
         existingStudent.setEmail(student.getEmail());
 
         service.updateStudent(existingStudent); //fetch to  update the existing student

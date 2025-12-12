@@ -158,8 +158,8 @@
                                     </thead>
                                     <tr th:each="student: ${students}">
                                         <td th:text="${student.id}"></td>
-                                        <td th:text="${student.fName}"></td>
-                                        <td th:text="${student.lName}"></td>
+                                        <td th:text="${student.firstName}"></td>
+                                        <td th:text="${student.lastName}"></td>
                                         <td th:text="${student.email}"></td>
                                         <td>
                                             <a th:href="@{/students/update/{id} (id=${student.id}) }" class="btn btn-primary">
