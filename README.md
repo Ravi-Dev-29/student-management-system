@@ -15,16 +15,15 @@ This application allows you to:
 ### Create
 <img width="1919" height="1018" alt="Add_new_student" src="https://github.com/user-attachments/assets/ea2c4c5f-c222-444c-b53a-edf9457f3f6f" />
 
-
 ### Read
 <img width="1919" height="1021" alt="Read" src="https://github.com/user-attachments/assets/9b71eaaf-0500-4d84-94c0-dc9811521249" />
 
 ### Update
  <img width="1919" height="1019" alt="Update_detail" src="https://github.com/user-attachments/assets/8fc57876-99f6-46b7-ac57-2669e2c53428" />
 
+### Delete
 **Before Delete:**  
 <img width="1918" height="1018" alt="Before_delete" src="https://github.com/user-attachments/assets/d05b472c-a8c7-4a32-bb6a-884de0b8f35a" />
-
 
 **After Delete:**  
 <img width="1919" height="1024" alt="after_delete" src="https://github.com/user-attachments/assets/7d92c8d8-88b8-4cab-a969-faa9d8b7365f" />
